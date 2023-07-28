@@ -1,0 +1,57 @@
+.parent {
+  min-width: 100%;
+  min-height: 100vh;
+  /* background: #fbbebe; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  overflow: hidden;
+}
+.tSection {
+  width: 100%;
+  height: 25vh;
+  /* background: skyblue; */
+  margin: 2rem 0;
+  /* padding: 1.5rem; */
+}
+.lSection {
+  width: 50%;
+  height: 100vh;
+  /* background: grey; */
+  flex: 1;
+}
+.title {
+  font-family: "Poppins", sans-serif;
+  color: rgb(32, 1, 23);
+  margin: 1rem 0 0 0;
+  font-size: 2.5rem;
+}
+.aboutSection {
+  /* background: rgb(238, 212, 247); */
+  width: 100%;
+  height: 100vh;
+  padding: 0.5rem;
+  overflow: visible;
+}
+.rightSection {
+  min-width: 45%;
+  min-height: 100vh;
+  padding: 15px;
+  display: grid;
+  flex: 0.5;
+  grid-template-columns: repeat(2, minmax(20%, auto));
+  gap: 15px;
+  overflow-y: scroll;
+  flex-grow: 0.2;
+}
+.aboutSection p {
+  line-height: 1.2;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+}
+.aboutSection p span {
+  font-weight: bold;
+}
+.p2 {
+  font-style: italic;
+}

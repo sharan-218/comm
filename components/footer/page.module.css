@@ -1,0 +1,16 @@
+.footer {
+  min-height: 5vh;
+  background: #f06060;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 12px;
+}
+.fLinks {
+  display: flex;
+  align-items: center;
+}
+.fLi {
+  padding: 5px;
+}

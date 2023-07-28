@@ -1,0 +1,13 @@
+.button {
+  padding: 8px 12px;
+  outline: none;
+  border: none;
+  /* font-size: 18px; */
+  font-weight: bold;
+  border-radius: 5px;
+  background: linear-gradient(212deg, rgb(10, 10, 73), rgb(55, 137, 137));
+}
+.button:hover {
+  cursor: pointer;
+  box-shadow: 0 2px 5px 2px rgba(67, 66, 66, 0.226);
+}
